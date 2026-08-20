@@ -1,0 +1,57 @@
+{
+    "_document_formatter_config_version": 2,
+    "_config_type": "Document Formatter Report Configuration",
+    "Margins": {
+        "top": 72,
+        "bottom": 72,
+        "left": 90,
+        "right": 60,
+        "use_default": true
+    },
+    "Typography": {
+        "font_family": "Times New Roman"
+    },
+    "Export": {
+        "format": "PDF",
+        "final_pdf_path": "Final_Report.pdf"
+    },
+    "Figures": {
+        "include_figure_labels": true,
+        "generate_output_pages": false,
+        "output_caption_mode": "Use file names",
+        "output_folder_path": "Default_Output_Snapshot_Folder",
+        "use_custom_output_captions": false,
+        "match_output_name_with_file_name": true,
+        "dont_caption_output": false
+    },
+    "CoverPage": {
+        "generate_cover_page": false,
+        "CollegeName": "",
+        "Address": "",
+        "StudentName": "",
+        "Roll": "",
+        "Section": "",
+        "Semester": "",
+        "TeacherName": "",
+        "ProjectTitle": "",
+        "logo_selected": false
+    },
+    "TableOfContent": {
+        "generate_table_of_content": false,
+        "toc_text": "",
+        "toc_source_mode": "Enter manually",
+        "toc_file_path": "",
+        "keep_existing_label": false
+    },
+    "CodePage": {
+        "generate_code_page": false,
+        "line_height": "40",
+        "code_folder_path": "Default_Code_Folder",
+        "output_after_code": false
+    },
+    "Watermark": {
+        "generate_watermark": false,
+        "name": ""
+    },
+    "OutputCaptions": {}
+}

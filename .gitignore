@@ -1,0 +1,85 @@
+# Python cache files
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Build and packaging files
+
+build/
+dist/
+*.egg-info/
+
+# Editor settings
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local Microsoft fonts
+
+/Fonts/*
+!/Fonts/.gitkeep
+
+# User-selected code files
+
+/Default_Code_Folder/*
+!/Default_Code_Folder/.gitkeep
+
+# Generated output screenshots
+
+/Default_Output_Snapshot_Folder/*
+!/Default_Output_Snapshot_Folder/.gitkeep
+
+# Generated front-page files
+
+/FrontPage/*
+!/FrontPage/.gitkeep
+
+# Generated table-of-content files
+
+/Table_Of_Content/*
+!/Table_Of_Content/.gitkeep
+
+# Generated reports and temporary PDFs
+
+/*.pdf
+
+# Generated text files
+
+/output_text.txt
+/Generation_Summary.txt
+/Project_Health_Check.txt
+
+# Runtime history and saved configurations
+
+/Generated_Project_History.json
+/saved_report_configuration.json
+
+# Runtime-generated JSON files
+
+/JsonFile/code_page_manifest.json
+/JsonFile/custom_logo_selected.json
+/JsonFile/last_saved_configuration.json
+/JsonFile/last_imported_configuration.json
+/JsonFile/last_imported_raw_configuration.json
+/JsonFile/output_captions.json
