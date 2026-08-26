@@ -184,7 +184,7 @@ Binary files, compressed archives, office documents, executables, images, and hi
 ## Important Project Files
 
 ```text
-Document_Formatter/
+document-formatter/
 ├── Assets/
 │   └── Icons/                         GUI icons
 ├── Default_Code_Folder/               Default source-code folder
@@ -236,8 +236,8 @@ python-docx==1.2.0
 ### Clone the repository
 
 ```bash
-git clone https://github.com/ShiveshShrestha/Projects.git
-cd Projects/Document_Formatter
+git clone https://github.com/ShiveshShrestha/document-formatter.git
+cd document-formatter
 ```
 
 ### Create a virtual environment
@@ -277,7 +277,7 @@ pip install -r requirements.txt
 
 ## Required Font Files
 
-Before running the application, add the required `.ttf` font files to the `Document_Formatter/Fonts/` folder.
+Before running the application, add the required `.ttf` font files to the `Fonts/` folder.
 
 The folder must contain:
 
@@ -297,7 +297,7 @@ Incorrect or missing filenames may cause a missing-font error during preview or 
 
 ## Running the Application
 
-Run the following command from inside the `Document_Formatter` folder:
+Run the following command from inside the project folder:
 
 ```bash
 python GUI.py
@@ -503,7 +503,7 @@ The summary may include:
 
 ### Missing font error
 
-Check that all four required `.ttf` files exist inside `Document_Formatter/Fonts/` and that their filenames exactly match:
+Check that all four required `.ttf` files exist inside `Fonts/` and that their filenames exactly match:
 
 ```text
 times.ttf
