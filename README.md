@@ -1,6 +1,6 @@
-# Report Generator
+# Document Formatter
 
-![Report Generator logo](logo.png)
+![Document Formatter logo](logo.png)
 
 A Python desktop application for turning source-code files and program-output screenshots into properly structured PDF project reports. The application uses a PyQt6 graphical interface and supports report setup, preview, validation, and final PDF generation.
 
@@ -18,7 +18,7 @@ Instead of manually creating the cover page, table of contents, code pages, outp
 
 Preparing programming and laboratory reports often involves repetitive tasks such as formatting source code, arranging screenshots, creating cover pages, preparing tables of contents, and maintaining consistent document layouts.
 
-Report Generator was developed to automate this process by allowing users to organize their source code and output screenshots and generate a structured PDF report through a desktop interface. The application was initially designed around academic lab report requirements but can be adapted for similar documentation workflows.
+Document Formatter was developed to automate this process by allowing users to organize their source code and output screenshots and generate a structured PDF report through a desktop interface. The application was initially designed around academic lab report requirements but can be adapted for similar documentation workflows.
 
 ---
 
@@ -137,7 +137,7 @@ This project reduces that manual work through a desktop application that manages
 
 ## System Workflow
 
-![Report Generator System Workflow](flowchart.png)
+![Document Formatter System Workflow](flowchart.png)
 
 ---
 
@@ -184,7 +184,7 @@ Binary files, compressed archives, office documents, executables, images, and hi
 ## Important Project Files
 
 ```text
-Report_Generator/
+Document_Formatter/
 ├── Assets/
 │   └── Icons/                         GUI icons
 ├── Default_Code_Folder/               Default source-code folder
@@ -237,7 +237,7 @@ python-docx==1.2.0
 
 ```bash
 git clone https://github.com/ShiveshShrestha/Projects.git
-cd Projects/Report_Generator
+cd Projects/Document_Formatter
 ```
 
 ### Create a virtual environment
@@ -277,7 +277,7 @@ pip install -r requirements.txt
 
 ## Required Font Files
 
-Before running the application, add the required `.ttf` font files to the `Report_Generator/Fonts/` folder.
+Before running the application, add the required `.ttf` font files to the `Document_Formatter/Fonts/` folder.
 
 The folder must contain:
 
@@ -297,7 +297,7 @@ Incorrect or missing filenames may cause a missing-font error during preview or 
 
 ## Running the Application
 
-Run the following command from inside the `Report_Generator` folder:
+Run the following command from inside the `Document_Formatter` folder:
 
 ```bash
 python GUI.py
@@ -503,7 +503,7 @@ The summary may include:
 
 ### Missing font error
 
-Check that all four required `.ttf` files exist inside `Report_Generator/Fonts/` and that their filenames exactly match:
+Check that all four required `.ttf` files exist inside `Document_Formatter/Fonts/` and that their filenames exactly match:
 
 ```text
 times.ttf
